@@ -1,1 +1,1 @@
-alert("You are entering a Restaurant Page!!!");
+import './styles.css';
