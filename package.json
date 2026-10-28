@@ -1,14 +1,14 @@
 {
-  "name": "cafe-olea-page",
+  "name": "cafe-olea",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Chris-Jacob-Dela-Cerna/restaurant-page#readme",
+  "homepage": "https://github.com/Chris-Jacob-Dela-Cerna/cafe-olea#readme",
   "bugs": {
-    "url": "https://github.com/Chris-Jacob-Dela-Cerna/restaurant-page/issues"
+    "url": "https://github.com/Chris-Jacob-Dela-Cerna/cafe-olea/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chris-Jacob-Dela-Cerna/restaurant-page.git"
+    "url": "git+https://github.com/Chris-Jacob-Dela-Cerna/cafe-olea.git"
   },
   "license": "ISC",
   "author": "Chris Jacob Dela Cerna",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.8",
     "style-loader": "^4.0.0",
     "webpack": "^5.112.0",

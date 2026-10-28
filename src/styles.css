@@ -66,6 +66,8 @@
 
 :root {
   --clr-300-orange-300: rgb(75, 55, 50);
+  --clr-800-white: rgb(200, 200, 200);
+  --clr-white: rgb(255, 255, 255);
 
   --font-primary: Montserrat;
   --font-secondary: Oswald;
@@ -87,11 +89,43 @@
 
 /*    Component    */
 
+header {
+  height: 7.3rem;
+  padding: 0 3rem 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+  height: 85%;
+}
+
+.header__nav {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.header__tab {
+  background-color: inherit;
+  border: 0;
+  color: var(--clr-white);
+  cursor: pointer;
+  font-family: var(--font-secondary);
+  font-size: 0.9rem;
+  letter-spacing: 0.03rem;
+
+  &:hover { color: var(--clr-800-white); }
+}
+
 
 
 /*    Utility    */
 
-.clr-bg-brown-espresso { background-color: var(--clr-300-orange-300); }
+.bg-clr-espresso { background-color: var(--clr-300-orange-300); }
+
 .font-primary { font-family: var(--font-primary) }
 .font-secondary { font-family: var(--font-secondary); }
 
@@ -99,4 +133,7 @@
 
 /*    Temporary    */
 
-main { background-color: rgb(63, 63, 63); }
+main { 
+  background-color: rgb(138, 137, 137);
+  height: 200vh; 
+}
