@@ -5,7 +5,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts/Montserrat/Montserrat-Italic.woff2') format('woff2');
@@ -13,7 +12,6 @@
     font-style: italic;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts/Montserrat/Montserrat-Medium.woff2') format('woff2');
@@ -21,7 +19,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
@@ -29,7 +26,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Oswald';
     src: url('fonts/Oswald/Oswald-Bold.woff2') format('woff2');
@@ -37,7 +33,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Oswald';
     src: url('fonts/Oswald/Oswald-Regular.woff2') format('woff2');
@@ -45,7 +40,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Oswald';
     src: url('fonts/Oswald/Oswald-Medium.woff2') format('woff2');
@@ -53,7 +47,6 @@
     font-style: normal;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'Oswald';
     src: url('fonts/Oswald/Oswald-Light.woff2') format('woff2');
@@ -66,6 +59,7 @@
 
 :root {
   --clr-300-orange-300: rgb(75, 55, 50);
+  --clr-500-orange-200: rgb(130, 110, 105);;
   --clr-800-white: rgb(200, 200, 200);
   --clr-white: rgb(255, 255, 255);
 
@@ -132,12 +126,3 @@
 
 .fixed              { position: fixed; }
 .top                { top: 0; }
-
-
-
-/*    Temporary    */
-
-main { 
-  background-color: rgb(138, 137, 137);
-  height: 200vh; 
-}
