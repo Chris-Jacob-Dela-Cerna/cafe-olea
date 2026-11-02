@@ -75,7 +75,7 @@
 
 
 
-/*    Reset    */
+/*    Resets    */
 
 * {
   box-sizing: border-box;
@@ -87,30 +87,7 @@
 
 
 
-/*    Component    */
-
-header {
-  height: 7.3rem;
-  width: 100vw;
-  padding: 0 6rem 0 4rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  position: fixed;
-  top: 0;
-}
-
-.header__logo {
-  cursor: pointer;
-  height: 85%;
-}
-
-.header__nav {
-  display: flex;
-  column-gap: 2rem;
-}
+/*    BEM Components    */
 
 .header__tab {
   background-color: inherit;
@@ -118,20 +95,43 @@ header {
   color: var(--clr-white);
   cursor: pointer;
   font-family: var(--font-secondary);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   letter-spacing: 0.03rem;
 
-  &:hover { color: var(--clr-800-white); }
+  &:hover { 
+    color: var(--clr-800-white); 
+  }
 }
 
 
 
-/*    Utility    */
+/*    Utilities    */
 
-.bg-clr-espresso { background-color: var(--clr-300-orange-300); }
+.bg-espresso        { background-color: var(--clr-300-orange-300); }
+.bg-silver          { background-color: var(--clr-800-white); }
 
-.font-primary { font-family: var(--font-primary) }
-.font-secondary { font-family: var(--font-secondary); }
+.cursor-pointer     { cursor: pointer; }
+
+.ff-primary         { font-family: var(--font-primary) }
+.ff-secondary       { font-family: var(--font-secondary); }
+
+.text-white         { color: var(--clr-white); }
+
+.h-30               { height: 7.5rem; }
+.h-85p              { height: 85%; }
+.w-100p             { width: 100%; }
+
+.pl-12              { padding-left: 3rem; }
+.pr-16              { padding-right: 4rem; }
+
+.d-flex             { display: flex; }
+.items-center       { align-items: center; }
+.justify-between    { justify-content: space-between; }
+.gap-8              { gap: 2rem; }
+.gap-24             { gap: 6rem; }
+
+.fixed              { position: fixed; }
+.top                { top: 0; }
 
 
 
