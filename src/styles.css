@@ -115,8 +115,8 @@
 .h-85p              { height: 85%; }
 .w-100p             { width: 100%; }
 
-.pl-12              { padding-left: 3rem; }
-.pr-16              { padding-right: 4rem; }
+.pl-8               { padding-left: 2rem; }
+.pr-12              { padding-right: 3rem; }
 
 .d-flex             { display: flex; }
 .items-center       { align-items: center; }
