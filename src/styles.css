@@ -107,7 +107,7 @@
 
 .title__container, 
 .content__container {
-  max-width: 56rem;
+  max-width: 60rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -123,7 +123,7 @@
 
   display: flex;
 
-  .title__container { padding-top: 20%; }
+  .title__container { padding-top: 12rem; }
 }
 
 .title__container {
