@@ -118,7 +118,7 @@
   background-color: var(--clr-500-orange-200);
 }
 
-.welcome .hero.title {
+.welcome .title.hero {
   min-height: 100vh;
 
   display: flex;
@@ -146,7 +146,7 @@
 
 .title__heading {
   font-family: var(--font-secondary);
-  font-size: 5rem;
+  font-size: 4.6rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
 }
@@ -186,8 +186,21 @@
   margin-bottom: 1.2rem;
 }
 
+.content__columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+}
+
+.content__column {
+  flex: 1 0 14rem;
+}
+
 .content__sub-heading {
   font-size: 1.35rem;
+
+  margin-top: 1.2rem;
 }
 
 
