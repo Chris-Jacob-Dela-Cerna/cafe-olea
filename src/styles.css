@@ -54,6 +54,13 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Yarndings 20';
+    src: url('fonts/Yarndings/Yarndings20-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 
