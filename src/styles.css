@@ -164,6 +164,10 @@
   padding-bottom: 3rem;
 }
 
+.content:not(:first-child) {
+  border-top: 1px solid var(--clr-300-orange-300);
+}
+
 .content__heading,
 .content__sub-heading {
   color: var(--clr-300-orange-300);
@@ -201,6 +205,20 @@
   font-size: 1.35rem;
 
   margin-top: 2rem;
+}
+
+
+
+.menu__list {
+  margin-top: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__item > .content__text strong,
+.menu__item > .content__text em {
+  display: block;
 }
 
 
