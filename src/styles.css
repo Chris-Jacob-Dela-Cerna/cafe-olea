@@ -150,6 +150,8 @@
   font-size: 4.6rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
+
+  width: 12ch;
 }
 
 .title__text {
@@ -256,6 +258,8 @@
 .bg-espresso        { background-color: var(--clr-300-orange-300); }
 
 .cursor-pointer     { cursor: pointer; }
+
+.text-center        { text-align: center; }
 
 .h-30               { height: 7.5rem; }
 .h-85p              { height: 85%; }
