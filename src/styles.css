@@ -59,9 +59,10 @@
 
 :root {
   --clr-300-orange-300: rgb(75, 55, 50);
-  --clr-300-orange-300-85: rgb(75, 55, 50, 0.85);
+  --clr-300-orange-300-85p: rgb(75, 55, 50, 0.85);
   --clr-500-orange-200: rgb(130, 110, 105);
   --clr-800-white: rgb(200, 200, 200);
+  --clr-black-20p: rgb(0, 0, 0, 0.25);
   --clr-white: rgb(255, 255, 255);
 
   --font-primary: Montserrat;
@@ -115,8 +116,15 @@
 
 
 
-.title {
+.title__wrapper {
   background-color: var(--clr-500-orange-200);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background-color: var(--clr-black-20p);
 }
 
 .welcome .title.hero {
@@ -140,7 +148,7 @@
   gap: 2.5rem;
 }
 
-.title.hero .title__container { 
+.hero .title__container { 
   padding-top: 16rem;
   padding-bottom: 12rem;
 }
@@ -163,12 +171,15 @@
 
 
 .content {
+  border-bottom: 1px solid var(--clr-300-orange-300);
+
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-.content:first-child { border-top: 1px solid var(--clr-300-orange-300); }
-.content:last-child { border-bottom: 1px solid var(--clr-300-orange-300); }
+.content:first-child { 
+  border-top: 1px solid var(--clr-300-orange-300); 
+}
 
 .content__container {
   display: flex;
@@ -244,11 +255,11 @@
   letter-spacing: 0.03rem;
 
   margin-top: 1rem;
-  padding: 1rem 2.4rem;
+  padding: 1.2rem 2.4rem;
 
   align-self: center;
 
-  &:hover { background-color: var(--clr-300-orange-300-85); }
+  &:hover { background-color: var(--clr-300-orange-300-85p); }
 }
 
 
@@ -278,6 +289,7 @@
 .h-85p              { height: 85%; }
 .w-100p             { width: 100%; }
 
+.mt-16              { margin-top: 4rem; }
 .pl-8               { padding-left: 2rem; }
 .pr-12              { padding-right: 3rem; }
 
