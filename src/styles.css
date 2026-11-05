@@ -91,7 +91,7 @@
   color: var(--clr-white);
   cursor: pointer;
   font-family: var(--font-secondary);
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   letter-spacing: 0.03rem;
 
   &:hover {
@@ -210,6 +210,8 @@
 }
 
 .content__columns {
+  margin-top: 1.6rem;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -217,7 +219,11 @@
 }
 
 .content__column {
-  flex: 1 0 14rem;
+  flex: 1 0 20rem;
+}
+
+.content__column-img {
+  width: 100%;
 }
 
 .content__sub-heading {
@@ -271,7 +277,9 @@
 #welcome-title-3  { background-image: url(img/cafe-olea-welcome-title-3.jpeg); }
 #welcome-title-4  { background-image: url(img/cafe-olea-welcome-title-4.jpeg); }
 #welcome-title-5  { background-image: url(img/cafe-olea-welcome-title-5.jpeg); }
+
 #menu-title-1     { background-image: url(img/cafe-olea-menu-title-1.jpeg); }
+
 #catering-title-1 { background-image: url(img/cafe-olea-catering-title-1.jpeg); }
 #catering-title-2 { background-image: url(img/cafe-olea-catering-title-2.jpeg); }
 
