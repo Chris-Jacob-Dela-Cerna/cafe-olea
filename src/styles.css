@@ -62,7 +62,7 @@
   --clr-300-orange-300-85p: rgb(75, 55, 50, 0.85);
   --clr-500-orange-200: rgb(130, 110, 105);
   --clr-800-white: rgb(200, 200, 200);
-  --clr-black-20p: rgb(0, 0, 0, 0.25);
+  --clr-black-30p: rgb(0, 0, 0, 0.3);
   --clr-white: rgb(255, 255, 255);
 
   --font-primary: Montserrat;
@@ -92,7 +92,7 @@
   cursor: pointer;
   font-family: var(--font-secondary);
   font-size: 0.9rem;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.04rem;
 
   &:hover {
     color: var(--clr-800-white); 
@@ -124,7 +124,7 @@
 }
 
 .title {
-  background-color: var(--clr-black-20p);
+  background-color: var(--clr-black-30p);
 }
 
 .welcome .title.hero {
@@ -149,7 +149,7 @@
 }
 
 .hero .title__container { 
-  padding-top: 16rem;
+  padding-top: 14rem;
   padding-bottom: 12rem;
 }
 
@@ -288,6 +288,7 @@
 /*    Utilities    */
 
 .bg-espresso        { background-color: var(--clr-300-orange-300); }
+.bg-inherit         { background-color: inherit; }
 
 .cursor-pointer     { cursor: pointer; }
 
