@@ -1,3 +1,8 @@
+import content1 from "../img/cafe-olea-welcome-content-1.jpeg";
+import content2 from "../img/cafe-olea-welcome-content-2.jpeg";
+import content3 from "../img/cafe-olea-welcome-content-3.jpeg";
+import content4 from "../img/cafe-olea-welcome-content-4.jpeg";
+
 export default `
       <section>
         <div class="title__wrapper" id="welcome-title-1">
@@ -38,10 +43,10 @@ export default `
             <button class="primary-btn">RESERVE</button>
             <div class="content__columns">
               <div class="content__column">
-                <img class="content__column-img" src="img/cafe-olea-welcome-content-1.jpeg" alt="Dinner Meal">
+                <img class="content__column-img" src="${content1}" alt="Dinner Meal">
               </div>
               <div class="content__column">
-                <img class="content__column-img" src="img/cafe-olea-welcome-content-2.jpeg" alt="Pasta and Cooler">
+                <img class="content__column-img" src="${content2}" alt="Pasta and Cooler">
               </div>
             </div>
           </div>
@@ -64,12 +69,12 @@ export default `
             <p class="content__text">When our Dubai chewy cookies come out of the oven, the line usually follows. Thick, soft and properly chewy, filled with pistachio cream and crisp toasted kataifi, it's the one thing our regulars never leave without. Baked fresh each morning, and when they're gone, they're gone.</p>
             <div class="content__columns">
               <div class="content__column">
-                <img class="content__column-img" src="img/cafe-olea-welcome-content-3.jpeg" alt="Handmade Dubai Chewy">
+                <img class="content__column-img" src="${content3}" alt="Handmade Dubai Chewy">
                 <h4 class="content__sub-heading">REAL INGREDIENTS, REAL CRUNCH.</h4>
                 <p class="content__text">Our pistachio cream is made in-house from roasted pistachios, white chocolate and a touch of tahini. The kataifi is toasted slowly in butter until golden, then folded in right before baking so every bite stays crisp. We use dark chocolate by the block, never chips, and finish each cookie with flaky sea salt. And once you've tried the original, ask about Dubai Bianco, Dubai Caramello and Dubai Nero.</p>
               </div>
               <div class="content__column">
-                <img class="content__column-img" src="img/cafe-olea-welcome-content-4.jpeg" alt="Olea Coffee Cart">
+                <img class="content__column-img" src="${content4}" alt="Olea Coffee Cart">
                 <h4 class="content__sub-heading">HIRE OLEA'S COFFEE CART.</h4>
                 <p class="content__text">Our vintage-style espresso cart will give your wedding, launch or birthday that extra something: a barista, a short menu of hot and iced coffees, and a tray of fresh cookies for every guest. If you've had our coffee in the café, you know what we mean. To bring Olea to your event, contact us at catering@cafeolea.ph</p>
               </div>
